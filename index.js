@@ -39,7 +39,7 @@ function decideWinner() {
     if (result1 > result2) {
         document.querySelector("h1").innerHTML = "Player 1 wins! 🎉";
     } else if (result2 > result1) {
-        document.querySelector("h1").innerHTML = "Player 2 wins! 🎉";
+        document.querySelector("h1").innerHTML = "🎉 Player 2 wins!";
     } else if (result1 === result2) {
         document.querySelector("h1").innerHTML = "It's a draw! 🤝";
     }
